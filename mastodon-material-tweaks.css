@@ -140,4 +140,10 @@
 .status__action-bar-dropdown .dropdown .icon-button:hover {
     background-color: inherit !important;
 }
+.scrollable::-webkit-scrollbar-thumb {
+    background-color: #ffc86f !important;
+}
+.scrollable {
+    overflow-y: auto;
+}
 }
