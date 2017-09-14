@@ -146,4 +146,21 @@
 .scrollable {
     overflow-y: auto;
 }
+
+/* Move boosted prepends inside the status box */
+.status__wrapper {
+    margin: 8px;
+    box-shadow: 4px 2px 2px #888;
+    border-radius: 2px;
+    background: white !important;
+}
+.status__prepend,
+.status__prepend * {
+    opacity: 0.75;
+    background: white !important;
+}
+.status__wrapper .status {
+    box-shadow: none;
+}
+
 }
