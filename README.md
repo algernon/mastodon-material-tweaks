@@ -36,4 +36,5 @@ Changes include:
   - The column headers (`Home`, `Notifications`, etc) are hidden, the sidebar
     shows the active page.
 - The scrollbar changed color to a yellow-ish one.
+- Most of the icon buttons rotate when hovered over.
 - Various minor fixes here and there.
