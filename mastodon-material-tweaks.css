@@ -208,10 +208,23 @@ a.dropdown__trigger.icon-button:hover {
 
 /* Auto-hide column headers */
 .column-header__wrapper {
-    height: 0px;
+    height: 1px;
     background-color: #292f33 !important;
     transition: height 1s;
     color: white !important;
+}
+.column-header__wrapper h1 {
+    height: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    opacity: 0;
+    transition: height 1s, padding-top 1s, padding-bottom 1s, opacity 1s;
+}
+.column-header__wrapper:hover h1 {
+    height: auto;
+    opacity: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .column-header__buttons,
 .column-header__button {
