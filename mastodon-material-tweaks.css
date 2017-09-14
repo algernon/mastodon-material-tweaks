@@ -1,0 +1,143 @@
+@-moz-document url-prefix("https://trunk.mad-scientist.club/web"), url-prefix("https://mastodon.social/web") {
+/* Color links blue-ish */
+.status-link {
+    color: #2b90d9 !important;
+}
+.status-link:hover {
+    text-decoration: underline !important;
+}
+
+/* Make the relative timestamp stand out less */
+.status__relative-time {
+    color: #aaa !important;
+}
+
+/* Dark top bar */
+.tabs-bar__link {
+    background-color: #292f33 !important;
+    color: #fff !important;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+    text-align: left;
+}
+.tabs-bar__link i {
+    position: absolute;
+    left: 9px;
+}
+
+.tabs-bar__link[data-preview-icon="asterisk"]::after {
+    content: "Getting Started";
+    margin-left: 30px;
+}
+
+.tabs-bar__link:hover {
+    background-color: #393f43 !important;
+    border-bottom: 2px solid #2bd990 !important;
+}
+
+.tabs-bar .active {
+    background-color: #2b90d9 !important;
+	border-bottom: 2px solid #2bd990 !important;
+}
+
+.tabs-bar__link span {
+    display: inline !important;
+    margin-left: 30px;
+}
+
+.tabs-bar {
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    background-color: #292f33 !important;
+    display: inline-block;
+    transition: width 0.3s linear;
+}
+.tabs-bar:hover {
+    width: 150px;
+}
+.tabs-bar + div {
+    margin-left: 40px;
+    transition: margin-left 0.3s linear;
+}
+.tabs-bar:hover + div {
+    margin-left: 150px;
+}
+
+/* Different colors for favs, mentions and boosts */
+
+.notification__message,
+.notification__message .notification__display-name {
+    color: #aaa !important;
+}
+
+.notification-favourite .status,
+.notification-favourite .status .status__info,
+.notification-favourite .status__display-name,
+.notification-favourite .status__content,
+.notification-favourite .status__content *,
+.notification-favourite .status__action-bar,
+.notification-favourite .status__action-bar *,
+.notification-favourite .status .status__info .status__display-name .display-name,
+.notification-favourite .status .status__info .status__display-name .display-name__html,
+.notification-favourite .status .status__content p,
+.notification-favourite .status .status__content a {
+    background-color: #ffffe8 !important;
+    color: #cfcfb8 !important;
+}
+.notification-favourite .status .status__content a.status-link * {
+    color: #6bd0ff !important;
+}
+
+.notification-reblog .status,
+.notification-reblog .status .status__info,
+.notification-reblog .status__display-name,
+.notification-reblog .status__content,
+.notification-reblog .status__content *,
+.notification-reblog .status__action-bar,
+.notification-reblog .status__action-bar *,
+.notification-reblog .status .status__info .status__display-name .display-name,
+.notification-reblog .status .status__info .status__display-name .display-name__html,
+.notification-reblog .status .status__content p,
+.notification-reblog .status .status__content a {
+    background-color: #e8ffe8 !important;
+    color: #9b9 !important;
+}
+.notification-reblog .status .status__content a.status-link * {
+    color: #6bd0ff !important;
+}
+
+.notification-follow .account {
+    background-color: #f0f0f0 !important;
+    box-shadow: none;
+}
+
+/* Margins */
+.tabs-bar {
+    margin: 0px;
+}
+
+.react-swipeable-view-container .columns-area {
+    height: 100% !important;
+    padding: 0px !important;
+}
+
+/* Media gallery */
+.media-gallery, .media-gallery__item {
+    background-color: white !important;
+}
+
+/* Unneccessary elements */
+.column-header__wrapper,
+.drawer__header {
+    display: none !important;
+}
+
+/* Fixups */
+.columns-area * .detailed-status__meta {
+    background-color: white !important;
+}
+.status__action-bar-dropdown .dropdown .icon-button:hover {
+    background-color: inherit !important;
+}
+}
