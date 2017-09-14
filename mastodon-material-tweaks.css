@@ -156,6 +156,9 @@
     background-color: inherit !important;
     color: #2b90d9 !important;
 }
+.account--action-button {
+    background-color: white !important;
+}
 
 .scrollable::-webkit-scrollbar-thumb {
     background-color: #ffc86f !important;
@@ -163,8 +166,28 @@
 .scrollable {
     overflow-y: auto;
 }
-.account--action-button {
-    background-color: white !important;
+
+.dropdown--active .dropdown__content.dropdown__right {
+    right: auto;
+}
+.dropdown--active .dropdown__content.dropdown__left>ul {
+    left: auto;
+}
+
+a.dropdown__trigger.icon-button:hover {
+    background-color: inherit !important;
+}
+.icon-button {
+    transition: transform 3.5s ease-in-out !important;
+    transform:rotate(0deg);
+}
+.icon-button:hover {
+    transform:rotate(720deg);
+}
+.account--action-button .icon-button,
+.account__action-bar .icon-button,
+.icon-button.overlayed {
+    transition: none !important;
 }
 
 /* Move boosted prepends inside the status box */
