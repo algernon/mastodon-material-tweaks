@@ -32,12 +32,12 @@
 
 .tabs-bar__link:hover {
     background-color: #393f43 !important;
-    border-bottom: 2px solid #2bd990 !important;
+    border-bottom: 2px solid #2b90d9 !important;
 }
 
 .tabs-bar .active {
     background-color: #2b90d9 !important;
-	border-bottom: 2px solid #2bd990 !important;
+	border-bottom: 2px solid #ffc86f !important;
 }
 
 .tabs-bar__link span {
