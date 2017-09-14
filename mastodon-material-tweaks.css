@@ -190,6 +190,11 @@ a.dropdown__trigger.icon-button:hover {
     transition: none !important;
 }
 
+.account .account__wrapper,
+.account .account__wrapper .account__relationship {
+    background-color: inherit !important;
+}
+
 /* Move boosted prepends inside the status box */
 .status__wrapper {
     margin: 8px;
@@ -227,7 +232,8 @@ a.dropdown__trigger.icon-button:hover {
     padding-bottom: 15px;
 }
 .column-header__buttons,
-.column-header__button {
+.column-header__button,
+.column-header__back-button {
     background-color: transparent !important;
 }
 .column-header__wrapper * {
