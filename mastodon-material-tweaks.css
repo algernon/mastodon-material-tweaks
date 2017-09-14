@@ -81,12 +81,12 @@
 .notification-favourite .status .status__info .status__display-name .display-name,
 .notification-favourite .status .status__info .status__display-name .display-name__html,
 .notification-favourite .status .status__content p,
-.notification-favourite .status .status__content a {
+.notification-favourite .status .status__content a,
+.notification-favourite,
+.notification-favourite .notification__message,
+.notification-favourite .notification__message * {
     background-color: #ffffe8 !important;
-    color: #cfcfb8 !important;
-}
-.notification-favourite .status .status__content a.status-link * {
-    color: #6bd0ff !important;
+    opacity: 0.8;
 }
 
 .notification-reblog .status,
@@ -99,17 +99,20 @@
 .notification-reblog .status .status__info .status__display-name .display-name,
 .notification-reblog .status .status__info .status__display-name .display-name__html,
 .notification-reblog .status .status__content p,
-.notification-reblog .status .status__content a {
+.notification-reblog .status .status__content a,
+.notification-reblog,
+.notification-reblog .notification__message,
+.notification-reblog .notification__message *{
     background-color: #e8ffe8 !important;
-    color: #9b9 !important;
-}
-.notification-reblog .status .status__content a.status-link * {
-    color: #6bd0ff !important;
+    opacity: 0.8;
 }
 
 .notification-follow .account {
     background-color: #f0f0f0 !important;
     box-shadow: none;
+}
+.notification-follow {
+    box-shadow: none !important;
 }
 
 /* Margins */
@@ -196,18 +199,24 @@ a.dropdown__trigger.icon-button:hover {
 }
 
 /* Move boosted prepends inside the status box */
-.status__wrapper {
+.status__wrapper, .notification {
     margin: 8px;
     box-shadow: 4px 2px 2px #888;
     border-radius: 2px;
+}
+.status__wrapper {
     background: white !important;
 }
 .status__prepend,
 .status__prepend * {
-    opacity: 0.75;
-    background: white !important;
+	background: white !important;
+    opacity: 0.6;
 }
-.status__wrapper .status {
+.notification__message,
+.notification__message * {
+	opacity: 0.75;
+}
+.status__wrapper .status, .notification .status {
     box-shadow: none;
 }
 
