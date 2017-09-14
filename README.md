@@ -21,7 +21,8 @@ Changes include:
 - Links within status cards are colored blue, and underlined on hover.
 - The top bar was moved to the left, and was turned dark. It now slides out when
   hovered.
-- Boosted toots had their "boosted by" message moved within the status card.
+- Boosted and favourited toots had their "boosted by"/"favourited by" messages
+  moved within the status card.
 - The notification tab had a major overhaul:
   - Favourited toots are highlighted with a faint yellow background.
   - Boosted toots are highlighted with a faint green background.
