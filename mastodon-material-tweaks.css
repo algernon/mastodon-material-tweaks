@@ -134,6 +134,9 @@
 }
 
 /* Fixups */
+.columns-area {
+    padding: 0px;
+}
 .columns-area * .detailed-status__meta {
     background-color: white !important;
 }
