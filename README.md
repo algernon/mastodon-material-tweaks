@@ -29,12 +29,12 @@ Changes include:
 - Media galleries have a white background, for a more seamless experience.
 - Several margins and paddings have been removed or adjusted, for better use of
   the screen.
-- Several widgets were removed, because their role is fulfilled by something
-  else:
+- Several widgets were removed or hidden, because their role is fulfilled by
+  something else:
   - The navigation header above the compose widget in full-size mode has been
     hidden, because the navigation sidebar is always visible now.
-  - The column headers (`Home`, `Notifications`, etc) are hidden, the sidebar
-    shows the active page.
+  - The column headers (`Home`, `Notifications`, etc) are hidden by default,
+    they appear when hovering over the very top of the page.
 - The scrollbar changed color to a yellow-ish one.
 - Most of the icon buttons rotate when hovered over.
 - Various minor fixes here and there.
