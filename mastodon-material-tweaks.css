@@ -285,6 +285,35 @@ a.dropdown__trigger.icon-button:hover {
 	    box-shadow: 0px 2px 2px #888;
 	    overflow-y: auto !important;
 	}
+
+	/* Back buttons */
+	.column .column-back-button,
+	.column-header,
+	.column {
+		background: #292f33 !important;
+	    color: white !important;
+	}
+	.column > .column-header,
+	.column > .column-back-button {
+	    margin-top: -49.9px;
+		transition: margin-top 1s;
+	}
+	.column > .column-header {
+	    height: 20px;
+	}
+	.column > .column-back-button {
+	    height: 50px;
+	}
+	.column-back-button--slim {
+	    transition: margin-top 1s;
+	}
+	.column > .column-header:hover,
+	.column > .column-back-button:hover {
+		margin-top: 0px;
+	}
+	.column > .column-back-button--slim:hover {
+	    margin-top: 49.5px;
+	}
 }
 
 /* White dropdowns */
@@ -337,5 +366,4 @@ a.dropdown__trigger.icon-button:hover {
 .compose-form__buttons {
     background-color: #f0f0f0 !important;
 }
-
 }
