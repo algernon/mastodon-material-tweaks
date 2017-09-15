@@ -283,4 +283,21 @@ a.dropdown__trigger.icon-button:hover {
 	    overflow-y: auto !important;
 	}
 }
+
+/* White dropdowns */
+.dropdown__content {
+    background-color: white !important;
+    opacity: 1 !important;
+}
+.dropdown__content * {
+    opacity: 1 !important;
+}
+.dropdown--active .dropdown__content > ul[role=group] {
+    border-radius: 0 !important;
+    box-shadow: 0 0 2px black !important;
+    background: white !important;
+}
+.dropdown--active .dropdown__content > ul[role=group] > li > a {
+    background: white !important;
+}
 }
