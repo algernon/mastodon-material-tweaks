@@ -38,4 +38,5 @@ Changes include:
     they appear when hovering over the very top of the page.
 - The scrollbar changed color to a yellow-ish one.
 - Most of the icon buttons rotate when hovered over.
+- Dropdown menus were changed to have a white background, and lighter shadows.
 - Various minor fixes here and there.
