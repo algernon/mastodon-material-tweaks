@@ -340,6 +340,13 @@ a.dropdown__trigger.icon-button:hover {
 .autosuggest-textarea__textarea,
 .compose-form__modifiers,
 .compose-form__buttons {
-    background-color: #f0f0f0 !important;
+    background-color: white !important;
+}
+
+.autosuggest-textarea__textarea {
+    box-sizing: content-box;
+    border-bottom: 1px solid #49a0de;
+    padding-right: 10px !important;
+    width: calc(100% - 20px)
 }
 }
