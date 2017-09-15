@@ -346,8 +346,13 @@ a.dropdown__trigger.icon-button:hover {
 .autosuggest-textarea__textarea {
     box-sizing: content-box;
     border: 1px solid #49a0de;
-    border-radius: 1px;
+    border-radius: 2px;
     padding-right: 10px !important;
     width: calc(100% - 20px)
+}
+
+.reply-indicator {
+    background: #f0f0f0 !important;
+    border-radius: 2px 2px 0px 0px;
 }
 }
