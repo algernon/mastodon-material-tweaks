@@ -345,7 +345,8 @@ a.dropdown__trigger.icon-button:hover {
 
 .autosuggest-textarea__textarea {
     box-sizing: content-box;
-    border-bottom: 1px solid #49a0de;
+    border: 1px solid #49a0de;
+    border-radius: 1px;
     padding-right: 10px !important;
     width: calc(100% - 20px)
 }
