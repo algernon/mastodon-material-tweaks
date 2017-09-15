@@ -47,18 +47,14 @@
 
 .tabs-bar {
     position: absolute;
-    width: 40px;
+    width: 150px;
     height: 100%;
     background-color: #292f33 !important;
     display: inline-block;
-    transition: width 0.3s linear;
-}
-.tabs-bar:hover {
-    width: 150px;
 }
 .tabs-bar + div {
     margin-left: 40px;
-    transition: margin-left 0.3s linear;
+    transition: margin-left 0.75s ease-out;
 }
 .tabs-bar:hover + div {
     margin-left: 150px;
