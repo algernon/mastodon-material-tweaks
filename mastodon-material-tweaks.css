@@ -304,4 +304,35 @@ a.dropdown__trigger.icon-button:hover {
     background: #2b90d9 !important;
     color: white !important;
 }
+
+/* Compose widget styling */
+.drawer {
+    background: #f0f0f0 !important;
+}
+@media screen and (min-width: 1025px) {
+    .drawer {
+		margin-top: 10px;
+	}
+}
+
+.drawer__pager {
+    background: #f0f0f0 !important;
+}
+.drawer__inner, .search {
+    box-shadow: 4px 4px 2px #888;
+    margin: 8px;
+    width: calc(100% - 16px);
+    background-color: white;
+    height: fit-content;
+}
+.search input.search__input {
+    background: white !important;
+}
+
+.autosuggest-textarea__textarea,
+.compose-form__modifiers,
+.compose-form__buttons {
+    background-color: #f0f0f0 !important;
+}
+
 }
