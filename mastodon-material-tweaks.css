@@ -84,9 +84,19 @@
 .notification-favourite .status .status__content a,
 .notification-favourite,
 .notification-favourite .notification__message,
-.notification-favourite .notification__message * {
+.notification-favourite .notification__message *,
+.notification-favourite .dropdown,
+.notification-favourite .dropdown__icon {
     background-color: #ffffe8 !important;
-    opacity: 0.8;
+
+}
+
+.notification-favourite .status__content,
+.notification-favourite .status__content *
+.notification-favourite .notification__message,
+.notification-favourite .notification__message *,
+.notification-favourite .status__display-name {
+    opacity: 0.5;
 }
 
 .notification-reblog .status,
@@ -102,9 +112,18 @@
 .notification-reblog .status .status__content a,
 .notification-reblog,
 .notification-reblog .notification__message,
-.notification-reblog .notification__message *{
+.notification-reblog .notification__message *,
+.notification-reblog .dropdown,
+.notification-reblog .dropdown__icon {
     background-color: #e8ffe8 !important;
-    opacity: 0.8;
+}
+
+.notification-reblog .status__content,
+.notification-reblog .status__content *
+.notification-reblog .notification__message,
+.notification-reblog .notification__message *,
+.notification-reblog .status__display-name {
+    opacity: 0.5;
 }
 
 .notification-follow .account {
