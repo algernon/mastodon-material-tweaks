@@ -187,7 +187,7 @@
     background-color: #f0f0f0 !important;
 }
 .scrollable::-webkit-scrollbar-thumb {
-    background-color: #ffc86f !important;
+	background-color:rgba(0,0,0,.2) !important;
 }
 .scrollable {
     z-index: -1;

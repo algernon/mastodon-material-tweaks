@@ -36,7 +36,7 @@ Changes include:
     hidden, because the navigation sidebar is always visible now.
   - The column headers (`Home`, `Notifications`, etc) are hidden by default,
     they appear when hovering over the very top of the page.
-- The scrollbar changed color to a yellow-ish one.
+- The scrollbar had its track hidden, and its color lightened.
 - Most of the icon buttons rotate when hovered over.
 - Dropdown menus were changed to have a white background, and lighter shadows.
 - The compose widget (and page) was restyled to be card-based too.
