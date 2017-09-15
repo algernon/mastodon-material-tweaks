@@ -60,6 +60,12 @@
     margin-left: 150px;
 }
 
+@media screen and (min-width: 1025px) {
+    .tabs-bar {
+		margin-top: 10px !important;
+	}
+}
+
 /* Different colors for favs, mentions and boosts */
 
 .notification__message,
@@ -320,6 +326,7 @@ a.dropdown__trigger.icon-button:hover {
 @media screen and (min-width: 1025px) {
     .drawer {
 		margin-top: 10px;
+		margin-right: 5px;
 	}
 }
 
