@@ -181,6 +181,9 @@
     background-color: white !important;
 }
 
+.scrollable::-webkit-scrollbar-track {
+    background-color: #f0f0f0 !important;
+}
 .scrollable::-webkit-scrollbar-thumb {
     background-color: #ffc86f !important;
 }
