@@ -250,7 +250,7 @@ a.dropdown__trigger.icon-button:hover {
 		background-color: #292f33 !important;
 		height: 49px;
 		margin-top: -48.9px;
-		transition: margin-top 1s;
+		transition: margin-top 0.25s;
 	}
     .column-header__wrapper:hover {
 		margin-top: 0px;
@@ -278,7 +278,7 @@ a.dropdown__trigger.icon-button:hover {
 	.column > .column-header,
 	.column > .column-back-button {
 	    margin-top: -49.9px;
-		transition: margin-top 1s;
+		transition: margin-top 0.25s;
 	}
 	.column > .column-header {
 	    height: 20px;
@@ -287,7 +287,7 @@ a.dropdown__trigger.icon-button:hover {
 	    height: 50px;
 	}
 	.column-back-button--slim {
-	    transition: margin-top 1s;
+	    transition: margin-top 0.25s;
 	}
 	.column > .column-header:hover,
 	.column > .column-back-button:hover {
