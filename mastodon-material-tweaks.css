@@ -300,4 +300,8 @@ a.dropdown__trigger.icon-button:hover {
 .dropdown--active .dropdown__content > ul[role=group] > li > a {
     background: white !important;
 }
+.dropdown--active .dropdown__content > ul[role=group] > li > a:hover {
+    background: #2b90d9 !important;
+    color: white !important;
+}
 }
