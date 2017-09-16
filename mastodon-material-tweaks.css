@@ -231,6 +231,9 @@ a.dropdown__trigger.icon-button:hover {
 .status__wrapper {
     background: white !important;
 }
+.status__wrapper .status {
+    border: 0px !important;
+}
 .status__prepend,
 .status__prepend * {
 	background: white !important;
