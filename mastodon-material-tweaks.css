@@ -131,6 +131,7 @@
 .notification-follow .account {
     background-color: #f0f0f0 !important;
     box-shadow: none;
+    border: 0px !important;
 }
 .notification-follow {
     box-shadow: none !important;
